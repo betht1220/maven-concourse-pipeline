@@ -25,6 +25,7 @@ applications:
   host: ${APP_HOST}
   path: ${APP_PATH}
   domain: ${APP_DOMAIN}
+  memory: ${APP_MEMORY}
 EOF
 
 cat manifest.yml

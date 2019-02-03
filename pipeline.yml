@@ -102,6 +102,7 @@ jobs:
       APP_NAME: {{cf-app-name}}
       APP_HOST: {{cf-app-host}}
       APP_DOMAIN: {{cf-app-domain}}
+      APP_MEMORY: {{cf-app-memory}}
   - put: pcf-resource
     params:
       manifest: manifest/manifest.yml
