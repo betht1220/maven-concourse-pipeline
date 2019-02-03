@@ -64,7 +64,7 @@ resources:
     password: {{cf-password}}
     organization: {{cf-org}}
     space: {{cf-space}}
-    skip_cert_check: false
+    skip_cert_check: true
 
 jobs:
 - name: job-build-and-verify
